@@ -6,7 +6,7 @@ A new Flutter project.
 
 This project is a starting point for a Flutter application.
 
-# Objectives
+## Objectives
 - discover the key concepts covered in this course
 - work with types of locally persisted data
 - read text data from files

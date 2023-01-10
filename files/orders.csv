@@ -1,0 +1,12 @@
+Data,Status,Category,Amount
+2022-01-10,Shipped,Fresh,$7
+2022-01-10,Packed,Snacks,$18
+2022-01-10,Delivered,Food,$48
+2022-01-10,Packed,Food,$30
+2022-01-10,Shipped,Fresh,$20
+2022-01-10,Assigned,Snacks,$10
+2022-01-10,Delivered,Food,$70
+2022-01-10,Packed,Snacks,$100
+2022-01-10,Shipped,Pets,250
+2022-01-10,Delivered,Pets,$65
+2022-01-10,Shipped,Electronics,$2000
