@@ -6,7 +6,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'src/screens/about_screen.dart';
 import 'src/screens/order_screen.dart';
 import './src/utils/file_utils.dart';
-import './src/screens/home_screen.dart';
+import './src/components/shopping_notes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.red,
       ),
-      home: const HomeScreen(),
+      home: const ShoppingNotes(),
     );
   }
 }
