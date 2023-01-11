@@ -5,7 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import 'src/screens/about_screen.dart';
 import 'src/screens/order_screen.dart';
-import './src/utils/file_utils.dart';
+import './src/screens/home_screen.dart';
 import './src/components/shopping_notes.dart';
 import './src/screens/preference_screen.dart';
 import './src/screens/setting_screen.dart';
