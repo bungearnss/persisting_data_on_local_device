@@ -3,8 +3,10 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 
-import './src/about_screen.dart';
-import './src/order_screen.dart';
+import 'src/screens/about_screen.dart';
+import 'src/screens/order_screen.dart';
+import './src/utils/file_utils.dart';
+import './src/screens/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,9 +21,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Insta Store',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.red,
       ),
-      home: const OrderScreen(),
+      home: const HomeScreen(),
     );
   }
 }
